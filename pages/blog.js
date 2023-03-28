@@ -8,8 +8,7 @@ const Blog = (props) => {
         <Layout>
             <div className='wrapper'>
                 <div className='container'>
-                    <h1>Blog</h1>
-                    <p>エンジニアの日常生活をお届けします</p>
+                    <h1>Works</h1>
                     {props.blogs.map((blog, index) => {
                         return (
                             <div key={index} className='blogCard'>
