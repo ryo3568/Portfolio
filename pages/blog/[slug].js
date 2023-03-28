@@ -7,7 +7,7 @@ import Layout from "../../components/layout"
 const SingleBlog = (props) => {
     console.log(props.frontmatter)
     return (
-        <Laytout>
+        <Layout>
             <div className='img-container'>
                 <Image src={props.frontmatter.image} alt="blog-image" height={500} width={1000} priority />
             </div>
@@ -18,7 +18,7 @@ const SingleBlog = (props) => {
                     <ReactMarkdown>{props.markdownBody}</ReactMarkdown>
                 </div>
             </div>
-        </Laytout>
+        </Layout>
     )
 }
 
