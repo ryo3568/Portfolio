@@ -30,7 +30,7 @@ const Index = () => {
         </div>
         <div className='profile'>
           <div className='image-container'>
-            <Image src="/images/hat.png" alt="hero" fill sizes="(max-width: 800px) 100vw" quality={90} priority />
+            <Image src="/images/hat.jpg" alt="hero" fill sizes="(max-width: 800px) 100vw" quality={90} priority />
           </div>
           <div>
             <h2>EDUCATION</h2>
